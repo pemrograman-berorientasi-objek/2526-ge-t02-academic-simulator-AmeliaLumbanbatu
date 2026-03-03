@@ -16,7 +16,6 @@ public class Enrollment {
         this.academicYear = academicYear;
         this.semester = semester;
         this.grade = "None";
-
     }
 
     public Enrollment(String courseCode, String studentId, String academicYear, String semester, String grade) {
@@ -27,8 +26,9 @@ public class Enrollment {
         this.grade = grade;
     }
 
-    public String getCourceCode() {
-        return courceCode;
+    // Perbaikan: Mengubah 'getCourceCode()' menjadi 'getCourseCode()' dan mengembalikan 'courseCode'
+    public String getCourseCode() {
+        return courseCode;
     }
 
     public String getStudentId() {
