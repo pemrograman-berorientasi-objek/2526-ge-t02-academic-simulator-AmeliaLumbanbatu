@@ -36,5 +36,4 @@ public class Course {
     public String toString() { // Perbaikan: 'string' diubah menjadi 'String'
         return courseCode + "|" + courseName + "|" + credits + "|" + grade;
     }
-
 }
